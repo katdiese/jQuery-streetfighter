@@ -59,3 +59,9 @@ body {
   left: 520px;
   float: left;
 }
+.instructions {
+  z-index: 1000;
+  position: absolute;
+  top: 390px;
+  left: 550px;
+}
