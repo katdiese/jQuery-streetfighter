@@ -11,6 +11,7 @@ $(document).ready(function(){
     //play hadouken sound
     $('.ryu-ready').hide();
     $('.ryu-throwing').show();
+    $('ryu-still').hide();
     $('.hadouken').finish().show().animate(
       {'left': '1020px'},
         500,
@@ -29,6 +30,7 @@ $(document).ready(function(){
   $(document).keydown(function(e) {
     if (e.which == 88) {
       $('.ryu-still').hide();
+      $('.ryu-ready').hide();
       $('.ryu-cool').show();
     }
   })
