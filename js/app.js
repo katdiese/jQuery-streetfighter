@@ -25,6 +25,7 @@ $(document).ready(function(){
     playHadouken();
     $('.ryu-ready').show();
     $('.ryu-throwing').hide();
+    $('.ryu-still').hide();
     //ryu goes back to his ready position
   });
   $(document).keydown(function(e) {
